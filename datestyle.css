@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo img {
+  width: 33%;
+  border-radius: 70px;
+}
+.navbar {
+  background: b;
+  display: flex;
+  align-items: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+  cursor: pointer;
+  background-color: transparent;
+}
+.nav-list {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list li {
+  list-style: none;
+  padding: 30px 38px;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-family: "ubuntu", sans-serif;
+}
+
+.nav-list li a:hover {
+  text-decoration: none;
+  color: palevioletred;
+}
+.rightNav {
+  width: 50%;
+  text-align: right;
+  padding: 15px 23px;
+}
+
+#search {
+  padding: 5px;
+  font-size: 17px;
+  border: 2px solid white;
+  border-radius: 9px;
+}
+
+.background {
+  background: black;
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.leftdiv {
+  float: left;
+}
+
+.btn-group button {
+  background: none;
+  border: 2px solid rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  padding: 10px 24px;
+  cursor: pointer;
+  width: 50%;
+  display: block; /* Make the buttons appear below each other */
+  margin: auto;
+  margin-top: 15px;
+}
+
+.rightdiv {
+  float: right;
+  background-color: black;
+}
+
+.datetitle {
+  text-align: center;
+  padding: 25px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
