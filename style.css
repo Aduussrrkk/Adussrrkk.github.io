@@ -188,3 +188,14 @@
 .btn:hover {
   color: rgb(238, 173, 184);
 }
+@media only screen and (max-width: 600px) {
+  .box-main {
+    max-width: 100%;
+  }
+  .text-big {
+    font-size: 24px;
+  }
+  .text-small {
+    font-size: 16px;
+  }
+}
